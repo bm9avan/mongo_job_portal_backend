@@ -1,0 +1,17 @@
+{
+  "name": "rest_api_nodejs",
+  "version": "1.0.0",
+  "description": "REST api for job portal",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "Pavan",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mongoose": "^7.5.1"
+  }
+}
